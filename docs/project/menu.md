@@ -1,38 +1,31 @@
 #### 项目目录
 
-    .                                                 //
-    ├── README.md                                     //                                          
-    ├── app.json                                      //  app配置文件          
-    ├── babel.config.js                               //                  
-    ├── index.js                                      //  app入口文件         
-    ├── metro.config.js                               //  项目配置文件                
-    ├── package.json                                  //               
-    ├── android                                       //  android文件            
-    ├── ios                                           //  ios文件         
-    ├── src                                           //  项目文件目录          
-    │   ├── assets                                    //     静态文件夹          
-    │   │   ├── images                                //        图片文件夹            
-    │   │   │   ├── icon-abarbeitung-active.png       //                                          
-    │   │   │   ├── icon-abarbeitung3x.png            //                                     
-    │   │   ├── style                                 //        样式文件夹              
-    │   │   │   ├── commonStyles.js                   //                              
-    │   │   └── utils                                 //        公用工具方法文件夹                
-    │   │       ├── BaseUpload.js                     //                            
-    │   ├── components                                //     项目内容文件夹                
-    │   │   ├── common                                //        公用组件                
-    │   │   │   ├── AlertView.js                      //                           
-    │   │   └── pages                                 //        模块        
-    │   │       ├── home                              //                   
-    │   │       │   └── index.js                      //                           
-    │   ├── containers                                //        主入口文件夹         
-    │   │   ├── App.js                                //                 
-    │   │   └── TabBarContainer.js                    //                             
-    │   └── stores                                    //        mobx 状态管理    
-    │       ├── app.store.js                          //                       
-    │       ├── index.js                              //                   
-    │       └── user.store.js                         //                        
-    └── yarn.lock                                     //            
-
+    .
+    ├── App.js                         //  未引用，移动至 containers 文件夹内       
+    ├── android                        //  Android平台文件        
+    ├── app.json                       //
+    ├── babel.config.js                //                  
+    ├── index.js                       //  app 入口文件        
+    ├── ios                            //  iOS平台文件    
+    ├── metro.config.js                //                  
+    ├── package.json                   //  配置文件             
+    ├── src                            //      
+    │   ├── assets                     //  静态文件夹           
+    │   │   ├── fonts                  //     字体管理           
+    │   │   ├── images                 //     图片管理            
+    │   │   ├── style                  //     样式管理           
+    │   │   └── utils                  //     公用方法           
+    │   ├── components                 //  公用组件文件夹               
+    │   │   ├── common.js              //     封装公用的TextInput等组件               
+    │   │   └── navBar.js              //     头部header组件               
+    │   ├── containers                 //  主模块文件               
+    │   │   ├── App.js                 //     app 初始化文件              
+    │   │   ├── TabBarContainer.js     //     tab切换场景文件                          
+    │   │   └── page                   //     模块文件夹              
+    │   └── stores                     //  状态管理 mobx           
+    │       ├── app.store.js           //                       
+    │       └── index.js               //                   
+    └── yarn.lock                      //            
 
 
 
