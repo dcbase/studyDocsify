@@ -8,6 +8,7 @@
     - [概述](project/desc)
     - [项目目录](project/menu)
     - [样式](project/style)
+    - [APP logo及名称](project/base)
 
 
 - node_modules

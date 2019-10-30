@@ -34,7 +34,7 @@
     
   运行完成可看到下图：
   
-<img src="../problem/images/1572311443186.jpg" alt="Sample"  width="250">
+![images](../problem/images/1572444773882.jpg)
   
   
   
