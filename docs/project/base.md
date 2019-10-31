@@ -1,5 +1,7 @@
 #### <font color="#ff4400">注意：修改完配置之后需重新打包APP</font>
 
+安利一个图标在线生成工具网址：https://icon.wuruihong.com/
+
 ###  Mac
 
 ###### 1.修改名称
@@ -60,7 +62,7 @@
 
 ###  Android
 
-###### 1.修改名称 
+##### 1.修改名称 
 
 android/app/src/main/res/valuse/strings.xml  文件
 
@@ -69,9 +71,9 @@ android/app/src/main/res/valuse/strings.xml  文件
     </resources>
 
 
-###### 2.修改APP图标
+##### 2.修改APP图标
 
-2.1 找到读取APP图标的文件位置
+###### 2.1 找到读取APP图标的文件位置
 
 文件目录：android/app/src/main/AndroidManifest.xml
 
@@ -81,7 +83,7 @@ android/app/src/main/res/valuse/strings.xml  文件
     android:roundIcon="@mipmap/ic_launcher_round" //圆角图标
 
 
-2.2 修改图标
+###### 2.2 修改图标
 
 将UI切好图标对应尺寸放入对应文件夹，尺寸及文件展示入下图
 
