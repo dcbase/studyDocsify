@@ -94,10 +94,10 @@
                     <Stack key="init" back>
                         <Scene key="main" initial back={false} hideNavBar component={TabBar}/>
                     </Stack>
-                    <Stack key="login" hideNavBar titleStyle={{alignSelf: "center"}}>
-                        <Scene key="loginModal" initial component={Login} title="Login" back={false} hideNavBar/>
-                    </Stack>
                 </Lightbox>
+                <Stack key="login" hideNavBar titleStyle={{alignSelf: "center"}}>
+                    <Scene key="loginModal" initial component={Login} title="Login" back={false} hideNavBar/>
+                </Stack>
             </Modal>
         </Scene>
     )
